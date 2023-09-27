@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Animal sound recognition app</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <center>
+            <div class="col-xs 12 header_div text-center">
+                <h1>Sound Controlled Aliens</h1>
+                <p style="color: red">
+                    Note : Play different sounds of animals like barking,
+                    meowing, mooing , roar to know what is the animal
+                </p>
+            </div>
+            <div class="main_div">
+                <button
+                    class="btn btn-outline-danger"
+                    onclick="startrecognition()"
+                >
+                    Start Listening
+                </button>
+                <h3 id="label_name">Animal Name -</h3>
+                <h4 id="label_confidence">Accuracy -</h4>
+                <h4>We detected the sound Of -</h4>
+                <div id="image"></div>
+            </div>
+            <div class="footer">
+              Developed by - Omkara Bajpai
+            </div>
+        </center>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
